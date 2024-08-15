@@ -2,6 +2,9 @@
 
 **Real-time face recognition system built on a Raspberry Pi using Python and OpenCV with web interface.**
 
+**Here is a diagram showing how the system works:**
+![screenshot](./resources/Diagram.PNG)
+
 **Features:**
 
 * **Real-time Recognition:**  Fast and accurate face recognition.
@@ -12,7 +15,7 @@
 
 **Getting Started:**
 
-1. **Prerequisites:** Raspberry Pi, Camera Module, Python 3, required packages (see `requirements.txt`).
+1. **Prerequisites:** Raspberry Pi, for required packages (see `requirements.txt`).
 2. **Installation:**
    ```bash
    git clone https://github.com/ntily/RaspberryPi-FaceRecognition.git
@@ -23,9 +26,9 @@
 
 **Usage:**
 
-* **Register Faces:** Access the web interface (usually `http://<raspberry-pi-ip-address>:5000`) and use the "Register Face" feature.
+* **Register Faces:** Access the web interface (usually `http://<raspberry-pi-ip-address>:5000`) and use the "Add New Image" feature.
 * **Recognition:** The system automatically detects and recognizes registered faces.
-* **Access Control:** Upon successful recognition, the system triggers connected resources (e.g., unlocks a door).
+* **Access Control:** Upon successful recognition, the system triggers connected resources (e.g., unlocks a door, mark attendance).
 
 **Project Structure:**
 
@@ -42,4 +45,4 @@ RaspberryPi-FaceRecognition/
 
 Screenshots:
 Web Interface - Live Feed - Face Recognition in Action:
-![screenshot](./screenshots/Capture.PNG)
+![screenshot](./resources/Capture.PNG)
