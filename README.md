@@ -42,4 +42,4 @@ RaspberryPi-FaceRecognition/
 
 Screenshots:
 Web Interface - Live Feed - Face Recognition in Action:
-![screenshot](./screenshots/Capture.png)
+![screenshot](./screenshots/Capture.PNG)
